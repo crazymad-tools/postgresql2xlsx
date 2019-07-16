@@ -1,0 +1,28 @@
+{
+  "name": "postgresql2xlsx",
+  "version": "0.0.1",
+  "description": "export postgresql to excel file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crazymad-tools/postgresql2xlsx.git"
+  },
+  "keywords": [
+    "postgresql",
+    "xlsx",
+    "excel"
+  ],
+  "author": "crazy_mad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crazymad-tools/postgresql2xlsx/issues"
+  },
+  "homepage": "https://github.com/crazymad-tools/postgresql2xlsx#readme",
+  "dependencies": {
+    "excel-export": "^0.5.1",
+    "pg": "^7.11.0"
+  }
+}
